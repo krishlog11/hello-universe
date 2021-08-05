@@ -1,37 +1,137 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Krish's Bio Data</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-You can use the [editor on GitHub](https://github.com/krishlog11/hello-universe/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+img {
+  border-radius: 50%;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+/* Header/ Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #00ff00;
+  color: white;
+}
 
-### Markdown
+/* Increase the font size of the heading by 40px */
+.header h1 {
+  font-size: 40px;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+/* Navbar - toggles between relative and fixed, depending on the scroll position. */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
 
-- Bulleted
-- List
+/* Writing Part 001 */
+.fakeimg {
+  background-color: Orange;
+  width: 100%;
+  padding: 20px;
+}
+div {
+  border: 1px solid black;
+  margin-top:0px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 
-1. Numbered
-2. List
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
 
-**Bold** and _Italic_ and `Code` text
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+div {
+  border: 1px solid black;
+  margin-top:0px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 
-[Link](url) and ![Image](src)
-```
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<style>
+body {
+  background-color: #03fcf4;
+}
+</style>
+</head>
+<body>
+<div>
+   <div class="header">
+  <img src="E:\Pics\DCIM Phone/20191126_083149.jpg" alt="Simply Easy Learning" width="200"
+         height="80"><h2><p style="color:blue">Krish Log</p><h2>
+  <p>This is Krish's bio data website.</p>
+</div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+<marquee behavior="scroll" direction="right" scrollamount="12">Hello Guys. You are seeing the bio data of Krish Log. Enjoy</marquee>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/krishlog11/hello-universe/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <h2><center>Short Biography & Profession <center></h2>
+    
+    <div class="fakeimg" style="height:100px;"><strong>Hello. I am Krish Log. I am 11 years old right now and studing in 6th Grade. My Profession - My profession is coding and programming and I have coded games apps webpages and more. I have made my own website and app. 
+ <strong></div>
+   
+    <br>
+    <h2><center>Educational Qualifications<center></h2>
+    
+    <div class="fakeimg" style="height:100px;">Studing in grade 6. </div>
+    
+	<br>
+	<h2><center>Contact Info<center></h2>
+    
+    <div class="fakeimg" style="height:100px;">Outlook Mail - genius542@outlook.com </div>
+  </div>
+</div>
 
-### Support or Contact
+<div class="footer">
+  <h2>Thanks </h2>
+    <button onmouseover="javascript:alert('CLICK!!. To Message Me If your have any questions')">CLICK!!. To Message Me If your have any questions</button>
+    </div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</div>
+
+</body>
+</html>
