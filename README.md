@@ -1,6 +1,5 @@
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">UP</button>
 <button onmousedown="decelerate(-0.2)" onmouseup="decelerate(0.05) ">Down</button>
-<button onmousedown=location.reload();>Reload</button>
 Hello Universe 😁. This is my bio Website - I am Krish Log (Find Me on Github).
 
 My Bio -
