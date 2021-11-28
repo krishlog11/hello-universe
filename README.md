@@ -1,12 +1,13 @@
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">UP</button>
 <button onmousedown="decelerate(-0.2)" onmouseup="decelerate(0.05) ">Down</button>
+<button onmousedown=location.reload();>Reload</button>
 Hello Universe 😁. This is my bio Website - I am Krish Log (Find Me on Github).
 
 My Bio -
 
 Hello. I am Krish Log. I am 11 years old right now and studing in 6th Grade. My Profession - My profession is coding and programming and I have coded games apps webpages and more. I have made my own website and app.
 
-Here is one of my project code This code is only for seeing coping is not allowed -
+Here is one of my project code. P.S For viewing only + Resize the screen to small before you start -
 
 
 
@@ -253,7 +254,6 @@ function closeForm() {
 }
 </script>
 
-<button onmousedown=location.reload();>Reload</button>
 </body>
 </html>
 
