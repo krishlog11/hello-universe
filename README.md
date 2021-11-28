@@ -253,7 +253,7 @@ function closeForm() {
 }
 </script>
 
-
+<button onmousedown=location.reload();>Reload</button>
 </body>
 </html>
 
